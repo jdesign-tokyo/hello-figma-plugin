@@ -1,0 +1,1 @@
+(()=>{"use strict";figma.showUI(__html__),figma.on("run",(()=>{1===figma.currentPage.selection.length&&"FRAME"===figma.currentPage.selection[0].type||figma.closePlugin("frameを一つ選択した状態で再起動してください")})),figma.ui.onmessage=e=>{console.log("Message received:",e),"greet"===e.type&&figma.closePlugin("Hello, Figma")}})();

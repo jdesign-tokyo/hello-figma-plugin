@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=document.getElementById("greet-button");e?e.addEventListener("click",(()=>{parent.postMessage({pluginMessage:{type:"greet"}},"*")})):console.error("greet-button element not found")})();
